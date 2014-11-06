@@ -1,0 +1,52 @@
+/* Handwriting Fonts */
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt|Indie+Flower|Coming+Soon);
+/* Font Awesome Icons */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Wireframe Borders */
+[class*='wf'], [class*='wf-child'] > * {
+    /* Solid border color(fallback)*/
+    border: 0px solid #aaa;
+    border-image: url('noise.png') 2 stretch;
+}
+/*all sides*/
+.wf, .wf-child > * { border-width: 2px; }
+/*single sides*/
+.wf-top, .wf-child-top > * { border-top-width: 2px; }
+.wf-right, .wf-child-right > * { border-right-width: 2px; }
+.wf-bottom, .wf-child-bottom > * { border-bottom-width: 2px; }
+.wf-left, .wf-child-left > * { border-left-width: 2px; }
+
+/* Prevent certain elements from using their default border/bg styles */
+form, input, textarea, table, button, select, optgroup, option {
+    font: inherit; color: inherit; background: transparent;
+    border-image: url('noise.png') 2 stretch;
+}
+
+/* General Styles*/
+body {
+    font: bold 91% 'Indie Flower';
+    color: #fff;
+    background-color: #111;
+    background: url('grid-dark.png') fixed;
+}
+body.light {
+    color: #333;
+    background-color: #fff;
+    background: url('grid-light.png') fixed;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer; /*since all links will be dummy*/
+}
+body.light a {
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rock Salt';
+    font-size: 91%;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+}
+.wrapper h1 {
+    padding: 1em;
+    padding-top: .7em;
+}
+.wrapper p {
+    padding: 1em;
+}
