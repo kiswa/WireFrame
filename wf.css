@@ -4,17 +4,16 @@
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
 /* Basic Reset */
-* { margin: 0; padding: 0; box-sizing: border-box; }
+*, *:before, *:after { margin: 0; padding: 0; box-sizing: border-box; }
 
 /* Wireframe Borders */
 [class*='wf'], [class*='wf-child'] > * {
-    /* Solid border color(fallback)*/
     border: 0px solid #aaa;
     border-image: url('noise.png') 2 stretch;
 }
-/*all sides*/
+/* All sides */
 .wf, .wf-child > * { border-width: 2px; }
-/*single sides*/
+/* Single sides */
 .wf-top, .wf-child-top > * { border-top-width: 2px; }
 .wf-right, .wf-child-right > * { border-right-width: 2px; }
 .wf-bottom, .wf-child-bottom > * { border-bottom-width: 2px; }
