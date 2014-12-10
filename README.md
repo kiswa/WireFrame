@@ -33,4 +33,4 @@ whatever you want (not set to anything in the wireframe CSS).
 
 The `wf.css` file also includes [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) icon fonts.
 
-Inspired by something I saw online a while back (I think it was [this](http://thecodeplayer.com/walkthrough/wireframing-with-html-css)).
+Inspired by [Wireframing with HTML and CSS](http://thecodeplayer.com/walkthrough/wireframing-with-html-css).
